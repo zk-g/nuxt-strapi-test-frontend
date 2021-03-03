@@ -1,4 +1,4 @@
-const strapiBaseUri = process.env.API_URL || "http://strapi.zank.it:1337";
+const strapiBaseUri = process.env.API_URL || "http://strapi.zank.it";
 
 export default {
 	target: "static",
