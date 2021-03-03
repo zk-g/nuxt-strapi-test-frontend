@@ -3,9 +3,9 @@ import Router from 'vue-router'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _f1936d8a = () => interopDefault(import('..\\pages\\articles\\_slug.vue' /* webpackChunkName: "pages/articles/_slug" */))
-const _688d5e7c = () => interopDefault(import('..\\pages\\categories\\_slug.vue' /* webpackChunkName: "pages/categories/_slug" */))
-const _0dbee840 = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
+const _8f938f14 = () => interopDefault(import('..\\pages\\articles\\_slug.vue' /* webpackChunkName: "pages/articles/_slug" */))
+const _594e6af7 = () => interopDefault(import('..\\pages\\categories\\_slug.vue' /* webpackChunkName: "pages/categories/_slug" */))
+const _4f8c38db = () => interopDefault(import('..\\pages\\index.vue' /* webpackChunkName: "pages/index" */))
 
 // TODO: remove in Nuxt 3
 const emptyFn = () => {}
@@ -25,15 +25,15 @@ export const routerOptions = {
 
   routes: [{
     path: "/articles/:slug?",
-    component: _f1936d8a,
+    component: _8f938f14,
     name: "articles-slug"
   }, {
     path: "/categories/:slug?",
-    component: _688d5e7c,
+    component: _594e6af7,
     name: "categories-slug"
   }, {
     path: "/",
-    component: _0dbee840,
+    component: _4f8c38db,
     name: "index"
   }],
 

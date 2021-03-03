@@ -12,10 +12,10 @@ import { setContext, getLocation, getRouteData, normalizeError } from './utils'
 
 /* Plugins */
 
-import nuxt_plugin_cookieuniversalnuxt_3ede0dba from 'nuxt_plugin_cookieuniversalnuxt_3ede0dba' // Source: .\\cookie-universal-nuxt.js (mode: 'all')
-import nuxt_plugin_http_235bb5fe from 'nuxt_plugin_http_235bb5fe' // Source: .\\http.js (mode: 'all')
-import nuxt_plugin_strapi_cb1b1e46 from 'nuxt_plugin_strapi_cb1b1e46' // Source: .\\strapi.js (mode: 'all')
-import nuxt_plugin_markdownit_e3918bc2 from 'nuxt_plugin_markdownit_e3918bc2' // Source: .\\markdown-it.js (mode: 'all')
+import nuxt_plugin_cookieuniversalnuxt_3efd46aa from 'nuxt_plugin_cookieuniversalnuxt_3efd46aa' // Source: .\\cookie-universal-nuxt.js (mode: 'all')
+import nuxt_plugin_http_a9e7fa26 from 'nuxt_plugin_http_a9e7fa26' // Source: .\\http.js (mode: 'all')
+import nuxt_plugin_strapi_117983e8 from 'nuxt_plugin_strapi_117983e8' // Source: .\\strapi.js (mode: 'all')
+import nuxt_plugin_markdownit_55db5b60 from 'nuxt_plugin_markdownit_55db5b60' // Source: .\\markdown-it.js (mode: 'all')
 import nuxt_plugin_uikit_47fa8f2a from 'nuxt_plugin_uikit_47fa8f2a' // Source: ..\\plugins\\uikit.js (mode: 'client')
 
 // Component: <ClientOnly>
@@ -169,20 +169,20 @@ async function createApp(ssrContext, config = {}) {
   }
   // Plugin execution
 
-  if (typeof nuxt_plugin_cookieuniversalnuxt_3ede0dba === 'function') {
-    await nuxt_plugin_cookieuniversalnuxt_3ede0dba(app.context, inject)
+  if (typeof nuxt_plugin_cookieuniversalnuxt_3efd46aa === 'function') {
+    await nuxt_plugin_cookieuniversalnuxt_3efd46aa(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_http_235bb5fe === 'function') {
-    await nuxt_plugin_http_235bb5fe(app.context, inject)
+  if (typeof nuxt_plugin_http_a9e7fa26 === 'function') {
+    await nuxt_plugin_http_a9e7fa26(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_strapi_cb1b1e46 === 'function') {
-    await nuxt_plugin_strapi_cb1b1e46(app.context, inject)
+  if (typeof nuxt_plugin_strapi_117983e8 === 'function') {
+    await nuxt_plugin_strapi_117983e8(app.context, inject)
   }
 
-  if (typeof nuxt_plugin_markdownit_e3918bc2 === 'function') {
-    await nuxt_plugin_markdownit_e3918bc2(app.context, inject)
+  if (typeof nuxt_plugin_markdownit_55db5b60 === 'function') {
+    await nuxt_plugin_markdownit_55db5b60(app.context, inject)
   }
 
   if (process.client && typeof nuxt_plugin_uikit_47fa8f2a === 'function') {

@@ -2,22 +2,22 @@
   {
     "name": "articles-slug",
     "path": "/articles/:slug?",
-    "component": "E:\\\\repositories\\\\zk-g\\\\strapi-starter-nuxt-blog\\\\frontend\\\\pages\\\\articles\\\\_slug.vue",
+    "component": "E:\\\\repositories\\\\zk-g\\\\nuxt-strapi-test-frontend\\\\pages\\\\articles\\\\_slug.vue",
     "chunkName": "pages/articles/_slug",
-    "_name": "_f1936d8a"
+    "_name": "_8f938f14"
   },
   {
     "name": "categories-slug",
     "path": "/categories/:slug?",
-    "component": "E:\\\\repositories\\\\zk-g\\\\strapi-starter-nuxt-blog\\\\frontend\\\\pages\\\\categories\\\\_slug.vue",
+    "component": "E:\\\\repositories\\\\zk-g\\\\nuxt-strapi-test-frontend\\\\pages\\\\categories\\\\_slug.vue",
     "chunkName": "pages/categories/_slug",
-    "_name": "_688d5e7c"
+    "_name": "_594e6af7"
   },
   {
     "name": "index",
     "path": "/",
-    "component": "E:\\\\repositories\\\\zk-g\\\\strapi-starter-nuxt-blog\\\\frontend\\\\pages\\\\index.vue",
+    "component": "E:\\\\repositories\\\\zk-g\\\\nuxt-strapi-test-frontend\\\\pages\\\\index.vue",
     "chunkName": "pages/index",
-    "_name": "_0dbee840"
+    "_name": "_4f8c38db"
   }
 ]
