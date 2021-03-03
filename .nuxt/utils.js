@@ -162,7 +162,7 @@ export async function setContext(app, context) {
 			payload: context.payload,
 			error: context.error,
 			base: "/",
-			env: { strapiBaseUri: "http://strapi.zank.it/" }
+			env: { strapiBaseUri: "https://strapi.zank.it/" }
 		};
 		// Only set once
 		if (!process.static && context.req) {

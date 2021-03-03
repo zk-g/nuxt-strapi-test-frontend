@@ -15,7 +15,7 @@ class Strapi extends Hookable {
 		this.$cookies = ctx.app.$cookies;
 		this.$http = ctx.$http.create({});
 		this.$http.setToken(this.getToken(), "Bearer");
-		this.$http.setBaseURL(runtimeConfig.url || "http://strapi.zank.it/");
+		this.$http.setBaseURL(runtimeConfig.url || "https://strapi.zank.it/");
 		this.$http.onError((err) => {
 			const {
 				response: {
